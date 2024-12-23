@@ -18,7 +18,10 @@ return {
           "typescript",
           "c",
           "cpp",
-          "rust"
+          "rust",
+          "markdown",
+          "markdown_inline",
+          "yaml"
         },
         sync_install = false,
         highlight = { enable = true },

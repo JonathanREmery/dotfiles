@@ -11,10 +11,13 @@ return {
     })
 
     -- Keymaps
-    vim.keymap.set({ "n", "x" }, "<leader>c", function()
-      return vim.v.count == 0
-          and "<Plug>(comment_toggle_linewise_visual)"
-          or "<Plug>(comment_toggle_linewise_visual)"
+    vim.keymap.set("n", "<leader>/", function()
+        return vim.v.count == 0
+            and "<Plug>(comment_toggle_linewise_current)"
+            or "<Plug>(comment_toggle_linewise_count)"
+    end, { expr = true })
+    vim.keymap.set("x", "<leader>/", function()
+      return "<Plug>(comment_toggle_linewise_visual)"
     end, { expr = true })
   end
 }
