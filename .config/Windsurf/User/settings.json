@@ -1,0 +1,28 @@
+{
+  "windsurf.autocompleteSpeed": "fast",
+  "vim.smartRelativeLine": true,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderLineHighlight": "none",
+  "editor.stickyScroll.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.decorations.colors": false,
+  "breadcrumbs.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.auxiliaryActivityBar.location": "hidden",
+  "workbench.activityBar.location": "hidden",
+  "window.menuBarVisibility": "toggle",
+  "window.title": "Windsurf",
+  "windsurf.autoExecutionPolicy": "auto",
+  "windsurf.autoOpenEditedFiles": false,
+  "windsurf.cascadeOpenOnReload": false,
+  "windsurf.enableConfig": {
+    "*": true
+  }
+}
